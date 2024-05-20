@@ -30,6 +30,8 @@ Parameters:
 - `200 OK` if the request is successful. Returns the calculated installment value.
 - `400 Bad Request` if there is an error in the request. Returns the error message.
 
+### Get person by Id
+
 #### Request
 GET /person/{id}
 
