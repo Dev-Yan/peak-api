@@ -3,6 +3,9 @@ using Peak.Domain.Interfaces.Services;
 
 namespace Peak.API.Controllers;
 
+/// <summary>
+/// Controller responsável por consultar pessoas.
+/// </summary>
 [ApiController]
 [Route("[controller]")]
 public class ConsultController : ControllerBase
@@ -14,6 +17,11 @@ public class ConsultController : ControllerBase
         _consultService = consultService;
     }
 
+    /// <summary>
+    /// Consulta uma pessoa pelo Id.
+    /// </summary>
+    /// <param name="id">Id da pessoa a ser consultada.</param>
+    /// <returns>Informações da pessoa consultada.</returns>
     [HttpGet("{id}")]
     public IActionResult Consult(int id)
     {
