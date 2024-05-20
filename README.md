@@ -1,10 +1,11 @@
 # Peak API
 
-A Peak API is an ASP.NET Core application that provides endpoints for calculating installments and querying information about people.
+A Peak API is an ASP.NET Core Web API that provides endpoints for calculating installments and get persons.
 
 ## Environment Setup
 
-Make sure you have the .NET Core SDK installed. You can download it from [dotnet.microsoft.com](https://dotnet.microsoft.com/download).
+- .NET 8;
+- Visual Studio.
 
 ## Installation
 
@@ -38,6 +39,3 @@ Parameters:
 #### Response
 - `200 OK` if the request is successful. Returns the information about the queried person.
 - `404 Not Found` if the person is not found. Returns the error message.
-
-
-
