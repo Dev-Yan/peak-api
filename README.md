@@ -13,7 +13,7 @@ A Peak API is an ASP.NET Core Web API that provides endpoints for calculating in
 2. Navigate to the project directory;
 3. Run the application.
 
-The application will be available at `http://localhost:44322`.
+The application will be available at `http://localhost:44322` | `https://peakapi.azurewebsites.net/swagger/index.html`.
 
 ## Endpoints
 
